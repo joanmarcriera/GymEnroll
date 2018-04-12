@@ -3,10 +3,10 @@
 from selenium import webdriver
 import time
 
-web_user = "annaborrasm@gmail.com"
+web_user = "mail@gmail.com"
 web_pass = "1339"
 prefered_center = "Lord Butler Leisure"
-activities_to_enroll = ['Body Balance Tue 17:30','Body Step Tue 18:30','Body Combat Wed 17:45','Body Pump Thu 18:30','Pilates Thu 09:00','Body Attack Thu 09:30']
+activities_to_enroll = ['Body Balance Tue 06:30','Body Step Tue 07:30']
 
 options = webdriver.ChromeOptions()
 options.binary_location = '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
